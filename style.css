@@ -1,13 +1,13 @@
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 16px; /* Reset default scaling */
-  max-width: 100%;
+/*   font-size: 16px; /* Reset default scaling */
+/*   max-width: 100%; */ */
 }
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
 
 
 /* Navigation Bar */
