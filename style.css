@@ -122,6 +122,11 @@ h2 {
   margin-right: 50px;
   margin-bottom: 50px;
 }
+p {
+    margin: 0; /* Removes extra spacing */
+    line-height: 1.5; /* Adjusts spacing between lines */
+}
+
 
 /* Skills */ */
 .skill {
