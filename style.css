@@ -118,10 +118,10 @@ h2 {
 
 .profile-info {
   margin-left: 50px;
-  margin-top: 50px;
+/*   margin-top: 50px; */
   margin-right: 50px;
-  margin-bottom: 50px;
 }
+
 p {
     margin: 0; /* Removes extra spacing */
     line-height: 1.5; /* Adjusts spacing between lines */
