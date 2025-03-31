@@ -120,7 +120,7 @@ h2 {
   height: 500px;
   border-radius: 50%;
   object-fit: contain;
-  object-position: center;
+  object-position: left;
   
 }
 
