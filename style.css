@@ -140,10 +140,18 @@ p {
   flex-direction: row;
   flex-flow: wrap;
 }
+.all_skills a {
+  text-decoration: none;
+  color: inherit;
+}
 
 .all_skills :hover {
   background-color: green;
   flex-flow: wrap;
+  cursor: pointer;
+}
+.all_skills a:hover {
+  text-decoration: none;
 }
 
 .skill  {
