@@ -1,13 +1,6 @@
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-/*   font-size: 16px; /* Reset default scaling */
-/*   max-width: 100%; */ */
 }
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
 
 
 /* Navigation Bar */
@@ -120,7 +113,7 @@ h2 {
   height: 500px;
   border-radius: 50%;
   object-fit: contain;
-  object-position: center;
+  object-position: left;
   
 }
 
@@ -136,7 +129,7 @@ p {
 }
 
 
-/* Skills */ */
+/* Skills */
 .skill {
   margin-top: 5px;
   padding: 0;
@@ -147,10 +140,18 @@ p {
   flex-direction: row;
   flex-flow: wrap;
 }
+.all_skills a {
+  text-decoration: none;
+  color: inherit;
+}
 
 .all_skills :hover {
   background-color: green;
   flex-flow: wrap;
+  cursor: pointer;
+}
+.all_skills a:hover {
+  text-decoration: none;
 }
 
 .skill  {
@@ -190,7 +191,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-} */
+} 
 
 /* Projects */
 
@@ -272,7 +273,7 @@ p {
 
 .popup {
   width:400px;
-  background-color: #e8bcf0;
+  background-color: green;
   border-radius: 3mm;
   top: 50%;
   left:50%;
